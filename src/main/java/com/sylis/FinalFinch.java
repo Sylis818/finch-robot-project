@@ -6,11 +6,20 @@ public static void main(String[] args) {
 
 
 
-for (int i = 0; i<4; i++) {
-bird.setMove("F", 5, 100);
-bird.setTurn("R", 90, 100);
+
+bird.setMove("F", 100, 80);
+bird.setTurn("L", 90, 100);
 bird.playNote(32,4);
-}
+bird.setMove("F", 30, 80);
+bird.setTurn("L", 90, 100);
+bird.setMove("F", 40, 80);
+bird.setTurn("R", 90, 100);
+bird.setMove("F", 60, 80);
+bird.setTurn("R", 90, 100);
+bird.setMove("F", 120, 80);
+bird.setTurn("R", 90, 100);
+bird.setMove("F", 10, 80);
+
 
 
 
