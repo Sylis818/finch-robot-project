@@ -2,10 +2,15 @@ package com.sylis;
 import com.birdbrain.Finch;
 public class FinalFinch {
 public static void main(String[] args) {
+//instantiates the bird
     Finch bird = new Finch();
 
-
-
+//changes tail color
+bird.setTail(1,0,0,100);
+bird.setTail(2,0,0,100);
+bird.setTail(3,0,0,100);
+//beak color
+bird.setBeak(0,0,100);
 //move through the first straight part
 bird.setMove("F", 100, 80);
 //takes the first turn
