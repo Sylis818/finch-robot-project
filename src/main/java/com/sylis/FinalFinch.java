@@ -5,6 +5,11 @@ public static void main(String[] args) {
 //instantiates the bird
     Finch bird = new Finch();
 
+
+// IT NEEDS TO BE PUT IN THE RIGHT POSITION FOR IT TO WORK PROPERLY
+
+
+
 //changes tail color
 bird.setTail(1,0,0,100);
 bird.setTail(2,0,0,100);
@@ -27,7 +32,7 @@ bird.setMove("F", 35, 80);
 bird.setTurn("R", 90, 100);
 //moves through the gap
 bird.setMove("F", 60, 80);
-//turns to the right
+//turns to the right but turns a little bit more than normal to prevent the bird from hitting the side of the maze
 bird.setTurn("R", 96, 100);
 //goes through the long part
 bird.setMove("F", 125, 60);
@@ -45,7 +50,7 @@ bird.setTurn("L", 90, 100);
 bird.setMove("F", 20, 80);
 
 
-
+// IT NEEDS TO BE PUT IN THE RIGHT POSITION FOR IT TO WORK PROPERLY
 
 
 //stops the bird and disconnects it from the program
